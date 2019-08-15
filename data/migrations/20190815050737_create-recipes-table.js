@@ -20,7 +20,7 @@ exports.up = function(knex) {
       table
         .integer("RecipeID")
         .references("ID")
-        .inTable("Recipies"),
+        .inTable("Recipes"),
         table
           .integer("IngredientID")
           .references("ID")
